@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mening kunlik rejam — Vaqtni to‘g‘ri taqsimlash va unumdorlikni oshirish uchun zamonaviy kun tartibi sahifasi.">
+    <title>Mening kunlik rejam — Unumli va tartibli kun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Asosiy Konteyner -->
+    <main class="main-container">
+
+        <!-- Bosh qism / Header -->
+        <header class="hero-header">
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span>Kun tartibi & unumdorlik</span>
+            </div>
+            <h1 class="main-title">Mening kunlik rejam</h1>
+            <p class="main-subtitle">
+                Har bir soatni aniq maqsad va unumli faoliyat bilan boyitish uchun shaxsiy reja
+            </p>
+        </header>
+
+        <!-- Muammo va Yechim bo‘limi -->
+        <section class="overview-grid">
+            <!-- Muammo kartochkasi -->
+            <article class="overview-card problem-card">
+                <div class="card-icon problem-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                </div>
+                <div class="overview-content">
+                    <span class="card-tag tag-problem">Mavjud muammo</span>
+                    <h2>Nega rejalashtirish zarur?</h2>
+                    <p>
+                        Kun davomida ishlarni oldindan rejalashtirmaslik sababli vaqtni to‘g‘ri taqsimlash qiyin bo‘ladi.
+                        Ba’zi muhim ishlar esdan chiqadi yoki e’tiborsizlik tufayli qimmatli vaqt behuda sarflanadi.
+                    </p>
+                </div>
+            </article>
+
+            <!-- Yechim kartochkasi -->
+            <article class="overview-card solution-card">
+                <div class="card-icon solution-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                </div>
+                <div class="overview-content">
+                    <span class="card-tag tag-solution">Tavsiya etilgan yechim</span>
+                    <h2>Muammoning yechimi</h2>
+                    <p>
+                        Har bir vazifani alohida vaqt oralig‘iga bo‘lib, vizual kartochkalar shaklida qayd etish.
+                        Bu diqqatni jamlash, chalg‘imaslik va barcha rejalashtirilgan maqsadlarga o‘z vaqtida erishish imkonini beradi.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Vaqt bo'yicha kunlik rejalar -->
+        <section class="schedule-section">
+            
+            <!-- 1. Ertalabki vaqt -->
+            <div class="time-block">
+                <div class="time-header">
+                    <div class="time-header-title">
+                        <span class="period-icon morning-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </span>
+                        <div>
+                            <h3>Ertalabki vaqt</h3>
+                            <span class="period-time">08:00 – 12:00 • Kunni tetik va g‘ayrat bilan boshlash</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards-grid">
+                    <!-- 1-vazifa: HTML o'rganish -->
+                    <article class="task-card">
+                        <div class="task-top">
+                            <span class="time-badge">08:30 – 10:00</span>
+                            <span class="category-badge cat-code">Dasturlash</span>
+                        </div>
+                        <div class="task-body">
+                            <div class="task-icon code-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <h4 class="task-title">HTML o‘rganish</h4>
+                            <p class="task-desc">
+                                Veb-dasturlash asoslarini o‘rganish, yangi teglar, semantik tuzilma va sahifa maketlari bo‘yicha amaliy mashqlar bajarish.
+                            </p>
+                        </div>
+                        <div class="task-footer">
+                            <span class="task-priority priority-high">Yuqori diqqat</span>
+                            <span class="task-duration">1 soat 30 daqiqa</span>
+                        </div>
+                    </article>
+
+                    <!-- 2-vazifa: Kompyuterda ishlash -->
+                    <article class="task-card">
+                        <div class="task-top">
+                            <span class="time-badge">10:15 – 11:45</span>
+                            <span class="category-badge cat-work">Amaliyot</span>
+                        </div>
+                        <div class="task-body">
+                            <div class="task-icon work-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                            </div>
+                            <h4 class="task-title">Kompyuterda ishlash</h4>
+                            <p class="task-desc">
+                                O‘rganilgan bilimlarni kompyuterda sinash, amaliy kichik loyihalar tuzish, fayllarni tartibga solish va kod yozish.
+                            </p>
+                        </div>
+                        <div class="task-footer">
+                            <span class="task-priority priority-medium">Amaliy ko‘nikma</span>
+                            <span class="task-duration">1 soat 30 daqiqa</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- 2. Tushlik vaqti -->
+            <div class="time-block">
+                <div class="time-header">
+                    <div class="time-header-title">
+                        <span class="period-icon noon-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="4"></circle>
+                                <path d="M12 2v2"></path>
+                                <path d="M12 20v2"></path>
+                                <path d="m4.93 4.93 1.41 1.41"></path>
+                                <path d="m17.66 17.66 1.41 1.41"></path>
+                                <path d="M2 12h2"></path>
+                                <path d="M20 12h2"></path>
+                                <path d="m6.34 17.66-1.41 1.41"></path>
+                                <path d="m19.07 4.93-1.41 1.41"></path>
+                            </svg>
+                        </span>
+                        <div>
+                            <h3>Tushlik vaqti</h3>
+                            <span class="period-time">12:00 – 17:00 • Energiya to‘plash va asosiy darslar</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards-grid">
+                    <!-- 3-vazifa: Dam olish -->
+                    <article class="task-card">
+                        <div class="task-top">
+                            <span class="time-badge">12:00 – 13:30</span>
+                            <span class="category-badge cat-rest">Tiklanish</span>
+                        </div>
+                        <div class="task-body">
+                            <div class="task-icon rest-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                                    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                                    <line x1="6" y1="1" x2="6" y2="4"></line>
+                                    <line x1="10" y1="1" x2="10" y2="4"></line>
+                                    <line x1="14" y1="1" x2="14" y2="4"></line>
+                                </svg>
+                            </div>
+                            <h4 class="task-title">Dam olish</h4>
+                            <p class="task-desc">
+                                Foydali va to‘yimli tushlik qilish, ko‘zlarni ekrandan uzib dam berish va toza havoda qisqa nafas rostlash.
+                            </p>
+                        </div>
+                        <div class="task-footer">
+                            <span class="task-priority priority-relax">Hordiq</span>
+                            <span class="task-duration">1 soat 30 daqiqa</span>
+                        </div>
+                    </article>
+
+                    <!-- 4-vazifa: Dars qilish -->
+                    <article class="task-card">
+                        <div class="task-top">
+                            <span class="time-badge">14:00 – 16:30</span>
+                            <span class="category-badge cat-study">Ta’lim</span>
+                        </div>
+                        <div class="task-body">
+                            <div class="task-icon study-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                </svg>
+                            </div>
+                            <h4 class="task-title">Dars qilish</h4>
+                            <p class="task-desc">
+                                Maktab yoki o‘quv markazi topshiriqlarini bajarish, darsliklarni qayta ko‘rib chiqish va yangi bilimlarni mustahkamlash.
+                            </p>
+                        </div>
+                        <div class="task-footer">
+                            <span class="task-priority priority-high">Muhim vazifa</span>
+                            <span class="task-duration">2 soat 30 daqiqa</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- 3. Kechki vaqt -->
+            <div class="time-block">
+                <div class="time-header">
+                    <div class="time-header-title">
+                        <span class="period-icon evening-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                        </span>
+                        <div>
+                            <h3>Kechki vaqt</h3>
+                            <span class="period-time">17:00 – 22:00 • Salomatlik, hordiq va kun xulosasi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards-grid">
+                    <!-- 5-vazifa: Futbol o'ynash -->
+                    <article class="task-card">
+                        <div class="task-top">
+                            <span class="time-badge">17:30 – 19:00</span>
+                            <span class="category-badge cat-sport">Sport & Salomatlik</span>
+                        </div>
+                        <div class="task-body">
+                            <div class="task-icon sport-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="m4.93 4.93 4.24 4.24"></path>
+                                    <path d="m14.83 9.17 4.24-4.24"></path>
+                                    <path d="m14.83 14.83 4.24 4.24"></path>
+                                    <path d="m9.17 14.83-4.24 4.24"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="task-title">Futbol o‘ynash</h4>
+                            <p class="task-desc">
+                                Do‘stlar bilan maydonda futbol o‘ynash, tanani chiniqtirish, toza havoda harakatlanish va ruhiy tetiklikni oshirish.
+                            </p>
+                        </div>
+                        <div class="task-footer">
+                            <span class="task-priority priority-sport">Jismoniy faollik</span>
+                            <span class="task-duration">1 soat 30 daqiqa</span>
+                        </div>
+                    </article>
+
+                    <!-- 6-vazifa: Musiqa tinglash -->
+                    <article class="task-card">
+                        <div class="task-top">
+                            <span class="time-badge">20:30 – 21:30</span>
+                            <span class="category-badge cat-music">Hordiq</span>
+                        </div>
+                        <div class="task-body">
+                            <div class="task-icon music-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 18V5l12-2v13"></path>
+                                    <circle cx="6" cy="18" r="3"></circle>
+                                    <circle cx="18" cy="16" r="3"></circle>
+                                </svg>
+                            </div>
+                            <h4 class="task-title">Musiqa tinglash</h4>
+                            <p class="task-desc">
+                                Yoqimli va sokin musiqa sadosi ostida tinchlanish, kun taassurotlarini tahlil qilish va yangi kunga ijobiy kayfiyatda tayyorlanish.
+                            </p>
+                        </div>
+                        <div class="task-footer">
+                            <span class="task-priority priority-relax">Sokinlik</span>
+                            <span class="task-duration">1 soat</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Kun oxirida foydali maslahat -->
+        <section class="tip-section">
+            <div class="tip-card">
+                <div class="tip-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                    </svg>
+                </div>
+                <div class="tip-content">
+                    <span class="tip-tag">Kun oxirida foydali maslahat</span>
+                    <h3 class="tip-title">Vaqtni qadrlang — uning har bir soniyasi qaytmas ne’matdir!</h3>
+                    <p class="tip-text">
+                        “Ertangi kun bugundan boshlanadi. Har kuni kechki uyqudan oldin ertangi kunning eng muhim 3 ta vazifasini belgilab oling.
+                        Kichik intizomli qadamlar vaqt o‘tishi bilan ulkan natijalar hamda muvaffaqiyatlarni olib keladi.”
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pastki qism / Footer -->
+        <footer class="footer">
+            <p>© Mening kunlik rejam • Faqat HTML va CSS bilan yaratilgan zamonaviy sahifa</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
